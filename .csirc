@@ -1,0 +1,5 @@
+(use readline)
+(use expand-full)
+(use low-level-macros)
+(use matchable)
+(current-input-port (make-gnu-readline-port))
